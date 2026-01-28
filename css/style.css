@@ -1,0 +1,66 @@
+/* Google fonts & font family
+==================================================*/
+
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #fff4eb;
+}
+
+#wrap{
+    width: 1320px;
+    margin: 0 auto;
+}
+.img_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_wrap img{
+    display: block;
+    width: 100%;
+}
+
+/* 버튼 */
+.btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 99;
+    text-align: center;
+}
+.btn li{
+    margin-top: 10px;
+}
+.btn li a{
+    display: inline-block;
+    color: #8b5e3c;
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #8b5e3c;
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: 0 0 10px #8b5e3c86;
+    transition: all 0.5s;    
+}
+.btn li a:hover{
+    display: inline-block;
+    color: #fff;
+    background-color: #8b5e3c;
+    border: 2px solid #8b5e3c;
+    transform: scale(1.1);
+    transition: all 0.5s;    
+}
